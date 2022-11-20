@@ -1,0 +1,122 @@
+            ul {
+                list-style-type: none;
+            }
+            
+            li {
+                display: inline;
+                padding: 15px;
+            }
+            
+            .topnav {
+                background-color: black;
+                padding: 5px;
+            }
+            
+            ul li a {
+                color: rgba(255, 255, 255, 0.673);
+                transition: 1s;
+            }
+            
+            ul li a:hover {
+                color: white;
+                text-decoration: none;
+            }
+            
+            ul li img {
+                height: 25px;
+                width: 25px;
+                margin-right: 50px;
+                opacity: 50%;
+                transition: 1s;
+            }
+            
+            ul li img:hover {
+                opacity: 100%;
+                transition: 1s;
+            }
+            
+            .search_icon {
+                height: 20px;
+                width: 20px;
+            }
+            
+            .search_icon:hover {
+                color: white;
+                background-color: black;
+            }
+            /* iPhone */
+            
+            .iPhone14jpg {
+                width: 850px;
+                height: 500px;
+                transition: 1s;
+            }
+            
+            .i14 div {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .iPhone14jpg:hover {
+                width: 950px;
+                height: 550px;
+                cursor: pointer;
+            }
+            
+            .h1h2 {
+                text-align: center;
+            }
+            
+            .ipads_div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 100px;
+                padding-top: 20px;
+                padding-bottom: 40px;
+            }
+            
+            .ipads_div .pic_div img {
+                height: 700px;
+                width: 600px;
+                transition: 1s ease;
+            }
+            
+            .ipads_div .pic_div img:hover {
+                height: 800px;
+                width: 700px;
+                cursor: pointer;
+            }
+            
+            .ipads_div .text_div h1 {
+                font-size: 50px;
+            }
+            
+            .ipads_div .text_div p {
+                font-size: 30px;
+                font-weight: 500;
+            }
+            
+            .ipads_div .text_div a {
+                font-size: 20px;
+            }
+            
+            .main_grid {
+                height: 1200px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 50px;
+                row-gap: 50px;
+            }
+            
+            .iphone14_pro {
+                background-color: black;
+                align-items: center;
+                text-align: center;
+                color: white;
+                padding-top: 30px;
+            }
+            
+            .iphone14_pro img {
+                height: 400px;
+            }
